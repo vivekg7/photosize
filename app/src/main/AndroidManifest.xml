@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  No permissions at all. Photos come from the system Photo Picker, the camera is the user's
+  own camera app via ACTION_IMAGE_CAPTURE (declaring CAMERA would actually *break* that
+  intent unless granted), results go to Pictures/ through MediaStore, and there is no
+  INTERNET permission because nothing ever leaves the phone.
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Material.NoActionBar">
-        <activity android:name=".MainActivity" android:exported="true">
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhotoSize">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 </manifest>

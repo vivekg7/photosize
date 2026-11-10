@@ -1,1 +1,62 @@
-<resources><string name="app_name">PhotoSize</string></resources>
+<resources>
+    <string name="app_name">PhotoSize</string>
+    <string name="spec_warning">Exam specs change between notifications. Always check the size, KB limits and any extra rules (background, name and date, photo age) against the official notification before you upload.</string>
+    <string name="section_exams">Exams</string>
+    <string name="section_custom">Your presets</string>
+    <string name="custom_size">Custom size</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="source">Source: %1$s</string>
+    <string name="spec_px">%1$d × %2$d px</string>
+    <string name="spec_px_range">%1$d × %2$d to %3$d × %4$d px</string>
+    <string name="spec_kb">%1$d–%2$d KB</string>
+    <string name="spec_dpi">%1$d DPI</string>
+
+    <string name="pick_title">Choose %1$s</string>
+    <string name="pick_hint_photo">Use a recent photo with your face clearly visible against a plain, light background. Good, even light matters more than the camera.</string>
+    <string name="pick_hint_ink">Sign in black ink on plain white paper, then photograph it from straight above in good light. Fill the frame with the signature.</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <string name="crop_title">Crop %1$s</string>
+    <string name="crop_hint">Drag to move, pinch to zoom. Everything inside the frame is kept.</string>
+    <string name="strip_toggle">Add name and date below the photo</string>
+    <string name="strip_band">Name and date</string>
+    <string name="rotate">Rotate</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+
+    <string name="preview">Preview of the final image</string>
+    <string name="result_line">%1$s · %2$d × %3$d px</string>
+    <string name="result_detail">%1$s bytes · quality %2$d · required %3$d–%4$d KB</string>
+    <string name="result_too_large">Could not get under the maximum size even at the lowest quality. Try a simpler crop or check the preset.</string>
+    <string name="result_shrunk">Made smaller than the largest allowed size to stay under the KB limit.</string>
+    <string name="result_padded">The image was smaller than the minimum, so blank metadata was added to reach it. The picture itself is unchanged.</string>
+    <string name="clean_toggle">Clean background</string>
+    <string name="clean_hint">Whitens the paper and darkens the ink</string>
+    <string name="threshold">Keep fainter strokes</string>
+    <string name="name">Name</string>
+    <string name="photo_date">Date of photo</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved to Pictures/PhotoSize</string>
+
+    <string name="custom_title">Custom preset</string>
+    <string name="custom_name">Name (e.g. State PSC photo)</string>
+    <string name="kind_photo">Photo</string>
+    <string name="kind_ink">Signature</string>
+    <string name="width_px">Width px</string>
+    <string name="height_px">Height px</string>
+    <string name="min_kb">Min KB</string>
+    <string name="max_kb">Max KB</string>
+    <string name="dpi_optional">DPI (optional)</string>
+    <string name="custom_invalid">Enter a name, 16–6000 px sides, and a KB range with min ≤ max.</string>
+    <string name="delete">Delete</string>
+    <string name="delete_title">Delete %1$s?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="error_decode">Could not open that image.</string>
+    <string name="error_render">Could not process the image.</string>
+    <string name="error_save">Could not save the image.</string>
+    <string name="error_no_camera">No camera app found.</string>
+</resources>
