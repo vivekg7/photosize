@@ -1,0 +1,384 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "ssc",
+      "name": "SSC (CGL / CHSL / MTS)",
+      "notes": "The photograph is no longer uploaded: it is taken live with the webcam or the mySSC app during the application. Only the signature is uploaded.",
+      "source": "SSC CGL 2026 notice (21-05-2026), paras 9.4-9.6",
+      "documents": [
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 300,
+          "height": 100,
+          "minKb": 10,
+          "maxKb": 20,
+          "format": "jpeg",
+          "note": "About 6.0 × 2.0 cm. Blurred or tiny signatures are rejected."
+        }
+      ]
+    },
+    {
+      "id": "upsc",
+      "name": "UPSC (Civil Services and others)",
+      "notes": "A live photo is also captured during the application and must match the uploaded one. The pixel sizes here are the app's choice; UPSC gives only KB limits.",
+      "source": "UPSC online application photo/signature instructions, 2026 cycle (via secondary sources)",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 600,
+          "height": 750,
+          "minWidth": 350,
+          "minKb": 20,
+          "maxKb": 200,
+          "format": "jpeg",
+          "note": "Recent, plain white background, face at least 75% of the frame, both ears visible."
+        },
+        {
+          "id": "signature",
+          "label": "Signature (three times)",
+          "kind": "ink",
+          "width": 500,
+          "height": 500,
+          "minWidth": 350,
+          "minKb": 20,
+          "maxKb": 100,
+          "format": "jpeg",
+          "note": "Sign three times, one below the other, in black ink on white paper, and photograph all three together."
+        }
+      ]
+    },
+    {
+      "id": "ibps",
+      "name": "IBPS (PO / Clerk)",
+      "notes": "A live photo is also captured during the application. The clerk notification has used the same sizes as PO in recent cycles.",
+      "source": "IBPS CRP PO/MT-XVI notification (2026), Annexure III",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 200,
+          "height": 230,
+          "minKb": 20,
+          "maxKb": 50,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "Recent colour photo, light (preferably white) background, no cap or dark glasses."
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 140,
+          "height": 60,
+          "minKb": 10,
+          "maxKb": 20,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "Black ink on white paper, not in capital letters."
+        },
+        {
+          "id": "thumb",
+          "label": "Left thumb impression",
+          "kind": "ink",
+          "width": 240,
+          "height": 240,
+          "minKb": 20,
+          "maxKb": 50,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "Black or blue ink on white paper, 3 × 3 cm."
+        },
+        {
+          "id": "declaration",
+          "label": "Handwritten declaration",
+          "kind": "ink",
+          "width": 800,
+          "height": 400,
+          "minKb": 50,
+          "maxKb": 100,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "In English, black ink, not in capitals: \"I, (name), hereby declare that all the information submitted by me in the application form is correct, true and valid. I will present the supporting documents as and when required.\""
+        }
+      ]
+    },
+    {
+      "id": "sbi",
+      "name": "SBI (PO / Clerk)",
+      "notes": "A live photo is also captured during the application. Keep a few prints of the same photo for later stages.",
+      "source": "SBI PO advertisement CRPD/PO/2026-27/09 (18-06-2026), Annexure II",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 200,
+          "height": 230,
+          "minKb": 20,
+          "maxKb": 50,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "Recent colour photo, light (preferably white) background."
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 140,
+          "height": 60,
+          "minKb": 10,
+          "maxKb": 20,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "Black ink on white paper, not in capital letters."
+        },
+        {
+          "id": "thumb",
+          "label": "Left thumb impression",
+          "kind": "ink",
+          "width": 240,
+          "height": 240,
+          "minKb": 20,
+          "maxKb": 50,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "Black or blue ink on white paper."
+        },
+        {
+          "id": "declaration",
+          "label": "Handwritten declaration",
+          "kind": "ink",
+          "width": 800,
+          "height": 400,
+          "minKb": 50,
+          "maxKb": 100,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "In English, black ink: \"I (name), (date of birth) hereby declare that all the information submitted by me in the application form is correct, true and valid. I will present the supporting documents as and when required. The signature, photograph and left-hand thumb impression is of mine.\""
+        }
+      ]
+    },
+    {
+      "id": "rrb",
+      "name": "RRB (NTPC and other CENs)",
+      "notes": "Recent RRB applications take the photo live with the webcam or phone, so only the signature is uploaded. Older CENs asked for a 30-70 KB photo upload; check your CEN.",
+      "source": "RRB NTPC CEN 06/2026 (via secondary sources)",
+      "documents": [
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 350,
+          "height": 200,
+          "minWidth": 140,
+          "minKb": 30,
+          "maxKb": 49,
+          "dpi": 200,
+          "format": "jpeg",
+          "note": "At least 140 × 60 px, black ink, running hand, not in capitals."
+        }
+      ]
+    },
+    {
+      "id": "neet",
+      "name": "NEET UG",
+      "notes": "NTA gives only KB limits; the pixel sizes are the app's choice. A live photo is also captured. The postcard-size photo is only needed as prints, not as an upload.",
+      "source": "NEET UG 2026 Information Bulletin (23-02-2026)",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Passport-size photo",
+          "kind": "photo",
+          "width": 350,
+          "height": 450,
+          "minWidth": 200,
+          "minKb": 10,
+          "maxKb": 200,
+          "format": "jpeg",
+          "note": "Face about 80% of the photo with ears visible, white background, taken recently (the bulletin sets a cut-off date)."
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 450,
+          "height": 150,
+          "minWidth": 250,
+          "minKb": 10,
+          "maxKb": 100,
+          "format": "jpeg"
+        },
+        {
+          "id": "left-impression",
+          "label": "Left-hand fingers and thumb",
+          "kind": "ink",
+          "width": 600,
+          "height": 450,
+          "minWidth": 300,
+          "minKb": 50,
+          "maxKb": 200,
+          "format": "jpeg",
+          "note": "The bulletin gives both 10-200 KB and 50-300 KB; 50-200 KB satisfies both."
+        },
+        {
+          "id": "right-impression",
+          "label": "Right-hand fingers and thumb",
+          "kind": "ink",
+          "width": 600,
+          "height": 450,
+          "minWidth": 300,
+          "minKb": 50,
+          "maxKb": 200,
+          "format": "jpeg",
+          "note": "The bulletin gives both 10-200 KB and 50-300 KB; 50-200 KB satisfies both."
+        }
+      ]
+    },
+    {
+      "id": "jee-main",
+      "name": "JEE Main",
+      "notes": "NTA gives only KB limits; the pixel sizes are the app's choice. A live photo is also captured.",
+      "source": "JEE Main 2027 Information Bulletin (24-10-2026)",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 350,
+          "height": 450,
+          "minWidth": 200,
+          "minKb": 10,
+          "maxKb": 200,
+          "format": "jpeg",
+          "note": "Recent colour photo, face about 80% with ears visible, white background."
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 450,
+          "height": 150,
+          "minWidth": 250,
+          "minKb": 10,
+          "maxKb": 100,
+          "format": "jpeg"
+        }
+      ]
+    },
+    {
+      "id": "cuet-ug",
+      "name": "CUET UG",
+      "notes": "NTA gives only KB limits; the pixel sizes are the app's choice. Note the lower signature limit than NEET and JEE.",
+      "source": "CUET UG 2026 Information Bulletin (January 2026)",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 350,
+          "height": 450,
+          "minWidth": 200,
+          "minKb": 10,
+          "maxKb": 200,
+          "format": "jpeg",
+          "note": "Recent colour photo, face about 80% with ears visible, white background."
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 450,
+          "height": 150,
+          "minWidth": 250,
+          "minKb": 10,
+          "maxKb": 50,
+          "format": "jpeg"
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "name": "GATE",
+      "notes": "The organising IIT changes every year; these are the GATE 2026 (IIT Guwahati) rules.",
+      "source": "gate2026.iitg.ac.in, photograph and signature page",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 530,
+          "height": 690,
+          "minWidth": 200,
+          "minKb": 5,
+          "maxKb": 600,
+          "format": "jpeg",
+          "note": "200 × 260 to 530 × 690 px, face 60-70% of the frame, white background. Spectacles allowed, not sunglasses."
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 540,
+          "height": 180,
+          "minWidth": 250,
+          "minKb": 3,
+          "maxKb": 300,
+          "format": "jpeg",
+          "note": "250 × 80 to 580 × 180 px, black or dark blue ink, signature filling 70-80% of the image."
+        }
+      ]
+    },
+    {
+      "id": "passport",
+      "name": "Passport size (35 × 45 mm)",
+      "notes": "35 × 45 mm at 300 DPI, for printing or for forms that just say \"passport size\". Passport Seva itself photographs you at the Kendra and publishes no upload limits.",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Passport photo",
+          "kind": "photo",
+          "width": 413,
+          "height": 531,
+          "minKb": 10,
+          "maxKb": 250,
+          "dpi": 300,
+          "format": "jpeg",
+          "note": "Plain white background, face centred, both ears visible."
+        }
+      ]
+    },
+    {
+      "id": "generic",
+      "name": "Generic form",
+      "notes": "Common sizes used by many state and recruitment portals. If your form lists exact numbers, save a custom preset instead.",
+      "documents": [
+        {
+          "id": "photo",
+          "label": "Photograph",
+          "kind": "photo",
+          "width": 200,
+          "height": 230,
+          "minKb": 20,
+          "maxKb": 50,
+          "format": "jpeg"
+        },
+        {
+          "id": "signature",
+          "label": "Signature",
+          "kind": "ink",
+          "width": 140,
+          "height": 60,
+          "minKb": 10,
+          "maxKb": 20,
+          "format": "jpeg"
+        }
+      ]
+    }
+  ]
+}
