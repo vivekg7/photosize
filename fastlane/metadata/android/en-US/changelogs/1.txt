@@ -1,0 +1,1 @@
+First release: presets for SSC, UPSC, IBPS, SBI, RRB, NEET, JEE Main, CUET, GATE and passport size, custom presets, crop, automatic KB fitting with DPI, signature cleanup, name and date strip, save and share.

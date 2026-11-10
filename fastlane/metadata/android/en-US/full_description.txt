@@ -1,0 +1,20 @@
+PhotoSize resizes and compresses your photo and signature to the exact pixel size and KB range that Indian exam application forms ask for. No ads, no tracking, no account, and no internet permission.
+
+Built-in presets (check them against your notification, specs change):
+• SSC, UPSC, IBPS, SBI, RRB
+• NEET UG, JEE Main, CUET UG, GATE
+• Passport size (35 × 45 mm) and a generic form
+• Your own custom presets
+
+Features:
+• Pick from the gallery or take a photo with your camera app; no storage or camera permission needed
+• Crop with the exact aspect ratio: drag and pinch under a fixed frame
+• Hits the KB range automatically: finds the best JPEG quality, shrinks the image only if it must, and pads files that come out too small
+• Writes the DPI into the file when the form asks for it
+• Signature mode whitens uneven paper and darkens the ink, for clean scans from a phone photo
+• Thumb impression and handwritten declaration presets for banking exams
+• Optional name and date strip under the photo
+• Shows the final size in KB and pixels before you save
+• Saves to Pictures/PhotoSize, or share straight to another app
+
+Free and open source (MIT).
